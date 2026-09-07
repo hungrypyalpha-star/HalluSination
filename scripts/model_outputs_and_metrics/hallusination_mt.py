@@ -20,7 +20,7 @@ Organized/output schema (json + csv):
     annotator_id | notes | comet_score | gemba_mqm_score | gemba_mqm_errors
 
 Usage:
-    python run_mt_hallucination_pipeline.py
+    python hallusination_mt.py
 
 Optional environment variables:
     OPENAI_BASE_URL       API base URL                        (default: http://127.0.0.1:8317/v1)
@@ -82,7 +82,7 @@ _load_env_file()
 
 
 # Configuration
-API_BASE_URL = os.environ.get("OPENAI_BASE_URL", "http://127.0.0.1:8317/v1")
+API_BASE_URL = os.environ.get("OPENAI_BASE_URL", "")
 API_KEY      = os.environ.get("OPENAI_API_KEY", "")
 
 MODEL_NAME          = os.environ.get("OPENAI_MODEL", "gpt-5.5")
