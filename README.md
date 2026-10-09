@@ -1,8 +1,8 @@
-# HalluSination: An Empirical Study of Hallucination for Sinhala Across Multiple Tasks and Domains
+# HalluSination: A Multi-Task, Multi-Domain Sinhala Hallucination Benchmark
 
 ## Overview
 
-**HalluSination** is the first empirical, source-grounded hallucination study for Sinhala. It covers two tasks:
+**HalluSination** is the first source-grounded hallucination benchmark for Sinhala. It covers two tasks:
 
 - **Machine Translation (MT)** — English → Sinhala across 4 domains
 - **Question Answering (QA)** — hallucination and faithfulness evaluation on source-grounded QA, including refusal behavior on unanswerable questions
