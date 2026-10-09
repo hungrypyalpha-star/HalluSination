@@ -75,7 +75,7 @@ MODEL_NAME_SAFE = "google-translate"
 # Option 1: API Key
 GOOGLE_API_KEY = os.environ.get(
     "GOOGLE_TRANSLATE_API_KEY",
-    os.environ.get("GOOGLE_API_KEY", "AIzaSyADETUJjzxFLMALiVdVz3Kd01Lgi78esCA")
+    os.environ.get("GOOGLE_API_KEY", "")
 )
 
 # Option 2: Service Account JSON Credentials
